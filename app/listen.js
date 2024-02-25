@@ -1,9 +1,3 @@
-import { log } from 'console'
-
-
-
-
-
 export const listen = async function (){
 
 	log('listening')
@@ -16,7 +10,7 @@ export const listen = async function (){
 
 
 	// 	let data = JSON.parse(event)
-	// 	log(data) 							
+	// 	console.log(data) 							
 
 		
     // }) 

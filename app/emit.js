@@ -1,6 +1,3 @@
-import { log } 					from 'console'
-
-
 import { createServer }	from 'http'
 const httpServer = createServer()
 httpServer.listen(3000)
@@ -27,7 +24,7 @@ export const emit = async function (){
 
 
         let data = JSON.parse(event)
-		log(data) 					
+		console.log(data) 					
                 
         io.emit('test', data)
 
